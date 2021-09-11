@@ -6,7 +6,11 @@
     transform: rotate(360deg);
   }
 }
-
+/* не понял зачем тут предлагают использовать миксы */
 .header__square-pic {
+  animation: rotation 20s linear infinite;
+}
+
+.kaufman__triangle {
   animation: rotation 20s linear infinite;
 }
