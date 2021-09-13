@@ -2,4 +2,9 @@
     width: 217px;
     height: 38px;
     text-align: center;
+    transition: opacity 1s ease-out;
+}
+
+.resources__logo:hover {
+    opacity: .4;
 }
