@@ -11,17 +11,16 @@
 
 /* * {outline: 1px solid red;} */
 
-.header__title, .two-columns__brief, .section-title, .two-columns__brief,
+.header__title, .section-title, .two-columns__brief,
 .feynman__title, .khan__title, .header__subtitle, 
 .two-columns__paragraph, .cards__description, .section-subtitle, 
 .table__text, .khan__author, .khan__quote, .khan__quote-author, 
-.khan__quote-author-subline, .footer__author {
+.khan__quote-author-subline, .footer__author, .cards, .table, 
+.resources__logo-zone, .footer__column-links {
    margin: 0;
    padding: 0;
  }
 
 .cards, .table, .resources__logo-zone, .footer__column-links {
-  margin: 0;
-  padding: 0;
   list-style-type: none;
 }
